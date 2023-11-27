@@ -7,7 +7,7 @@ import SidebarItems from "./SidebarItems";
 const visitorRoutes = [
   {
     icon: Layout,
-    label: "MyDashboard",
+    label: "Dashboard",
     href: "/",
   },
   {

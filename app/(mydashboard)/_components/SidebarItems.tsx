@@ -38,7 +38,14 @@ const SidebarItems = ({ icon: Icon, label, href }: SidebarItemsProps) => {
           size={22}
           className={cn("text-neutral-500", isActive && "text-violet-700")}
         />
+        {label}
       </div>
+      <div
+        className={cn(
+          "ml-auto opacity-0 border-2 border-violet-700 h-full transition-all",
+          isActive && "opacity-100"
+        )}
+      />
     </button>
   );
 };
