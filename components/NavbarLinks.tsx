@@ -17,15 +17,15 @@ const NavbarLinks = () => {
     <div className="flex gap-x-2 ml-auto">
       {isInstructorPage || isPlayerPage ? (
         <Link href="/">
-          <Button size="sm" variant="ghost">
+          <Button size="sm" variant="ghost" className="bg-red-500">
             <LogOut className="h-4 w-4 mr-2" />
-            Exit
+            <h1 className="text-white"> Exit</h1>
           </Button>
         </Link>
       ) : (
         <Link href="/instructor/courses">
           <Button size="sm" variant="ghost">
-            Instructor Mode
+            Instructor Environment
           </Button>
         </Link>
       )}
