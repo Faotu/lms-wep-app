@@ -4,7 +4,7 @@ import React from "react";
 
 const CoursesPage = () => {
   return (
-    <div>
+    <div className="p-6">
       <Link href="/instructor/create">
         <Button className="p-6">New Course</Button>
       </Link>
